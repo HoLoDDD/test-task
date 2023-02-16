@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "es2022",
+        "target": "es2017",
+        "lib": ["es2016", "dom"],
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "./public/js/app"
+    },
+    "extends": "./tsconfig.json",
+    "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+}

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "es2022",
+        "declaration": true,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "strictPropertyInitialization": false,
+        "moduleResolution": "node",
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "baseUrl": "./",
+        "incremental": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "lib": ["ES5", "ES2017", "DOM", "ScriptHost"]
+    }
+}
